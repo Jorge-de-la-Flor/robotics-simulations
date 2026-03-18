@@ -1,6 +1,8 @@
-# Python-generated files
+# Python
 __pycache__/
-*.py[oc]
+*.py[cod]
+*$py.class
+
 build/
 dist/
 wheels/
@@ -8,3 +10,12 @@ wheels/
 
 # Virtual environments
 .venv
+venv/
+env/
+
+# Rust
+target/
+**/*.rs.bk
+
+# OS
+.DS_Store
